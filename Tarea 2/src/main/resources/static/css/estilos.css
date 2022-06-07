@@ -1,0 +1,106 @@
+
+
+body {
+    background-color: firebrick;
+    padding: 150px 20px 0;
+    font-family: monospace;
+    color: white;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.headerIndex {
+    background-color: khaki;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.header {
+    background-color: khaki;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 100px; 
+    color: black;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+
+.imagenes {
+    width: 300px;
+    height: 180px;
+    border-style: ridge;
+}
+
+.imagenes:hover {
+    width: 330px;
+    height: 210px;
+    border-style: ridge;
+    border-color: black;
+}
+
+.lista {
+    display: flex;
+    max-width: 992px;
+    margin: 0;
+    list-style: none;
+    width: max-content;
+}
+
+.lista-menu-index {
+    color: white;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin: 0 10px;
+    line-height: 80px; 
+    width: max-content;
+    padding: 12px 12px 12px 800px;
+}
+
+.item-menu-index {
+    color: black;
+    text-decoration: none;
+}
+
+
+figcaption {
+    font-size: 30px;
+    text-align: center;
+}
+
+.link-imagenes {
+    text-decoration: none;
+    color: white;
+}
+
+.link-imagenes:hover {
+    color: black;
+}
