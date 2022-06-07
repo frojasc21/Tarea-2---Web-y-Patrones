@@ -8,8 +8,17 @@ body {
 }
 
 h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
     font-size: 25px;
     text-align: center;
+}
+
+h4 {
+    font-size: 20px;
 }
 
 .headerIndex {
@@ -64,9 +73,10 @@ h2 {
     height: 210px;
     border-style: ridge;
     border-color: black;
+    transition: 0.5s;
 }
 
-.lista {
+.lista-index {
     display: flex;
     max-width: 992px;
     margin: 0;
@@ -88,6 +98,18 @@ h2 {
 .item-menu-index {
     color: black;
     text-decoration: none;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.item-menu-index:hover {
+    color: white;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: darkred;
 }
 
 
@@ -103,4 +125,66 @@ figcaption {
 
 .link-imagenes:hover {
     color: black;
+    transition: 0.5s;
+}
+
+.link-lista {
+    color: black;
+    text-decoration: none;
+}
+
+.lista {
+    display: flex;
+    margin-right: 0px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.item-lista {
+    font-size: 18px;
+    line-height: 80px; 
+    width: max-content;
+}
+
+.link-menu {
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.link-menu:hover {
+    color: white;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: darkred;
+}
+
+.footer {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.link {
+    color: white;
+    font-style: oblique;
+    font-family: cursive;
+    font-size: 10px;
+}
+
+.link:visited {
+    color: buttontext;
+}
+
+#estilo1 {
+    color: lightyellow;
+    text-align: left;
+    font-style: unset;
+}
+
+#estilo2 {
+    color: buttonshadow;
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
 }

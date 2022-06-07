@@ -1,11 +1,11 @@
 <html>
     <head>
-        <title>Pizza Ricca - Ordenar</title>
+        <title>Pizza Rica - Registro</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body style="background: url(imagenes/horno.jpg) no-repeat right fixed;background-color: firebrick">
+    <body>
         <header class="header">
             <nav style="display: flex">
                 <a href="index.html" class="logo">Pizza Ricca</a>
@@ -20,36 +20,43 @@
             </nav>
         </header>
         <aside>
-            <h4>Por favor ingrese su orden</h4>
+            <h3>Por favor ingrese sus datos para registrarse</h3>
         </aside>
         <section>
             <article>
-                <form action="Orden.jsp">
-                    <br/>
-                    <h4>Paso 1: Sabores</h4>
-                    <br/>Queso<input type="radio" name="sabor" value="Queso"/> Jamon<input type="radio" name="sabor" value="Jamon"/>  Pepperonni<input type="radio" name="sabor" value="Pepperonni"/>  Suprema<input type="radio" name="sabor" value="Suprema"/>  Hawaiana<input type="radio" name="sabor" value="Hawaiana"/>
+                <form action="Registro.jsp">
                     <br/>
                     <br/>
-                    <br/>
-                    <h4>Paso 2: Tamaño</h4>
-                    <br/>Jumbo<input type="radio" name="size" value="Jumbo"/> Grande<input type="radio" name="size" value="Grande"/>  Mediana<input type="radio" name="size" value="Mediana"/>  Pequeña<input type="radio" name="size" value="Pequeña"/>
+                    Nombre completo: <input type="text" name="nombre" placeholder="Ingrese su nombre"/>
                     <br/>
                     <br/>
-                    <br/>
-                    <h4>Paso 3: Cantidad</h4>
-                    <br/>Cuantas unidades?: <input type="number" name="cantidad" value="1"/>
+                    Correo electronico: <input type="email" name="correo" placeholder="Ingrese su correo"/>
                     <br/>
                     <br/>
-                    <br/>
-                    <h4>Paso 4: Tipo de entrega</h4>
-                    <br/>Express<input type="radio" name="entrega" value="Express"/> Recoger en restaurante<input type="radio" name="entrega" value="Recoger"/>
+                    Fecha de nacimiento?: <input type="date" name="fecha"/>
                     <br/>
                     <br/>
-                    <br/>
-                    <br/><input type="button" name="botonOrdenar" value="Ordenar"/>  <input type="reset" value="Borrar selecciones"/>
-                    <br/>
+                    Numero de telefono: <input type="tel" name="telefono"/>
                     <br/>
                     <br/>
+                    Contraseña: <input type="password" name="contrasena"/>
+                    <br/>
+                    <br/>
+                    Confirmar contraseña: <input type="password" name="contrasena2"/>
+                    <br/>
+                    <br/>
+                    Direccion completa: <input type="text" name="direccion" placeholder="Ingrese su direccion" size="70"/>
+                    <br/>
+                    <br/>
+                    Provincia:  San Jose<input type="radio" name="provincia" value="san"/> Cartago<input type="radio" name="provincia" value="car"/>  Heredia<input type="radio" name="provincia" value="her"/>  Alajuela<input type="radio" name="provincia" value="ala"/>  Limon<input type="radio" name="provincia" value="lim"/> Guanacaste<input type="radio" name="provincia" value="gua"/> Puntarenas<input type="radio" name="provincia" value="pun"/>
+                    <br/>
+                    <br/>
+                    <br/><input type="button" name="botonGuradar" value="Registrarme"/>  <input type="reset" value="Borrar campos"/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+                    
                 </form>
             </article>
         </section>
